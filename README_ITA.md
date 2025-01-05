@@ -34,8 +34,8 @@ feh --bg-scale /percorso/file/immagine.jpg
 Perchè proprio nella cartella `/etc/profile.d`? perchè è una directory che contiene script di configurazione shell (generalmente in formato .sh) questi script vengono eseguiti automaticamente all'avvio di una shell interattiva di login, e sono utilizzati per settare variabili d'ambiente, funzioni e altre configurazioni specifiche di ambiente per gli utenti.
 Ci sono alternative? si, una potrebbe essere inserire uno script nella cartella `~/.congig/autostart` se esiste, perchè potrebbe stare anche da altre parti.. ma personalmente non ho mai provato, in quella cartella autostart sono contenuti file di configurazione che definiscono quali applicazioni devono essere eseguite automaticamente all'avvio dell'ambiente desktop.
 
-# PANNELLO DI CONTROLLO
+# PANNELLO DI CONTROLLO / TASKBAR
 il primo problema a cui si va in contro e che ti farebbe venir voglia di cacciare un exit o peggio spegnere il pc dal tasto fisico, è l'assenza di un pannello di controllo.. in particolare per configurare wifi, bluethoot ecc... 
 
-La mia scelta è caduta su **tint2** (comando avviabile da terminale oppure con il trucchetto dello sfondo che abbiamo visto prima).
-Spoiler a volte non funziona spariscono delle icone, ma una volta configurato wifi o bluetooth non sarà necessario rifarlo a ogni avvio, ricordo che Openbox è solo un gestore di finestre). Un'opzione è anche farsi largo nel menù di openbox trovando l'applicativo per collegarsi, da terminale dovrebbe essere **nm-connection-editor**, oppure esiste anche **nmtui** che personalmente non ho mai utilizzato
+La mia scelta è caduta su `tint2` (comando avviabile da terminale oppure con il trucchetto dello sfondo che abbiamo visto prima).
+Spoiler a volte non funziona spariscono delle icone, ma una volta configurato wifi o bluetooth non sarà necessario rifarlo a ogni avvio, ricordo che Openbox è solo un gestore di finestre). Un'opzione è anche farsi largo nel menù di openbox trovando l'applicativo per collegarsi, da terminale dovrebbe essere `nm-connection-editor`*, oppure esiste anche *`nmtui` che dovrebbe essere completo, ma personalmente non lo ho mai utilizzato. Lo stesso vale per il bluetooth, puoi farti largo nel menù di openbox, usarlo dal pannello o da terminale, puoi attivarlo e disattivarlo col comando `bluetooth`
