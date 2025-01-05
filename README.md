@@ -10,7 +10,7 @@ Attualmente mi ritrovo con Linux mint, da quando è entrato nei miei SSD è stat
 
 Probabilmente a un certo punto innamorato delle cose ancora più scarne, ti sei imbattuto in Fluxbox, Openbox, i3 e simili... ognuno di noi si è innamorato di un editor di finestre diverso... A me tra tutti è toccato Openbox.
 
-Di seguito ti mostrerò un elenco di comandi utili per sopravvivere la dentro, poichè una volta fatto il login (dalla schermata di login bisogna cambiare ambiente grafico selezionando openbox, normalmente è un pulsantino sulla destra, ogni distro è impostata diversamente)
+Di seguito ti mostrerò un elenco di comandi utili per sopravvivere la dentro, poichè una volta fatto il login (dalla schermata di login bisogna cambiare ambiente grafico selezionando openbox, normalmente è un pulsantino sulla destra, ogni distro è impostata diversamente) comparirà una schermata nera.. e mo? che si fa? prova a premere il pulsante destro del mouse
 
 
 # COMMANDS
