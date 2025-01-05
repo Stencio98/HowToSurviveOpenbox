@@ -18,6 +18,9 @@ Se non sai cosa siano il comando make e il file .bashrc vai un attimo a cercare 
 
 *PS: queste sono suluzioni che io ho trovato comode, può essere che non lo siano per altri, ma il bello sta proprio nel personalizzare gli ambienti a proprio piacimento*.
 
+# SHORTCAT 
+ctrl+alt + freccia sinistra/destra sposta nel desktop precedente/successivo 
+
 # SFONDO
 cè a chi piace e a chi no uno sfondo totalmente nero, ma a noi no. Quindi che si fa?
 Ci appoggiamo al comando feh:
@@ -39,5 +42,7 @@ il primo problema a cui si va in contro e che ti farebbe venir voglia di cacciar
 
 La mia scelta è caduta su `tint2` (comando avviabile da terminale oppure con il trucchetto dello sfondo che abbiamo visto prima).
 Spoiler a volte non funziona spariscono delle icone, ma una volta configurato wifi o bluetooth non sarà necessario rifarlo a ogni avvio, ricordo che Openbox è solo un gestore di finestre). Un'opzione è anche farsi largo nel menù di openbox trovando l'applicativo per collegarsi, da terminale dovrebbe essere `nm-connection-editor`, oppure esiste anche `nmtui` che dovrebbe essere completo, ma personalmente non lo ho mai utilizzato. Lo stesso vale per il bluetooth, puoi farti largo nel menù di openbox, usarlo dal pannello, dal terminale dovresti poterlo attivare e disattivare col comando `bluetooth`.
+
+#
 
 *Come detto prima il bello sta nel personalizzare gli ambienti a nostro piacimento ;)*
