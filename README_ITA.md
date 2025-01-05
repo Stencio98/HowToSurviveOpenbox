@@ -12,7 +12,7 @@ Di seguito ti mostrerò un elenco di comandi utili per sopravvivere la dentro, p
 (in alcuni casi ho letto possa essere la combinazione Alt+F2)
 
 Che ti piaccia o no (ma se sei qui figurati, forse lo usi meglio e più di me) bisogna usare il terminale, almeno nelle prime configurazioni.
-Questo passaggio non è fondamentale, quindi sentiti libero di fare come preferisci, io ho creato un Makefile (devi avere il comando make per utilizzarlo) nella directory /home/user/ in cui ho inserito i comandi che uso più spesso, una alternativa è editare il file /home/user/.bashrc per personalizzare comandi e poterli utilizzare ovunque ti trovi e non solo in /home/user/ 
+Questo passaggio non è fondamentale, quindi sentiti libero di fare come preferisci, io ho creato un Makefile (devi avere il comando make per utilizzarlo) nella directory /home/user/ in cui ho inserito i comandi che uso più spesso, una alternativa è editare il file `/home/user/.bashrc` per personalizzare comandi e poterli utilizzare ovunque ti trovi e non solo in /home/user/ 
 Se non sai cosa siano il comando make e il file .bashrc vai un attimo a cercare sul web.
 
 # SFONDO
