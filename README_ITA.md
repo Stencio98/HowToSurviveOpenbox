@@ -37,6 +37,5 @@ Ci sono alternative? si, una potrebbe essere inserire uno script nella cartella 
 # PANNELLO DI CONTROLLO
 il primo problema a cui si va in contro e che ti farebbe venir voglia di cacciare un exit o peggio spegnere il pc dal tasto fisico, è l'assenza di un pannello di controllo.. in particolare per configurare wifi, bluethoot ecc... 
 
-La mia scelta è caduta su tint2 (comando avviabile da terminale oppure con il trucchetto dello sfondo che abbiamo visto prima).
-Spoiler a volte non funziona spariscono delle icone, ma una volta configurato wifi o bluetooth non sarà necessario rifarlo a ogni avvio, ricordo che Openbox è solo un gestore di finestre).
-
+La mia scelta è caduta su **tint2** (comando avviabile da terminale oppure con il trucchetto dello sfondo che abbiamo visto prima).
+Spoiler a volte non funziona spariscono delle icone, ma una volta configurato wifi o bluetooth non sarà necessario rifarlo a ogni avvio, ricordo che Openbox è solo un gestore di finestre). Un'opzione è anche farsi largo nel menù di openbox trovando l'applicativo per collegarsi, da terminale dovrebbe essere **nm-connection-editor**, oppure esiste anche **nmtui** che personalmente non ho mai utilizzato
