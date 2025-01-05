@@ -1,7 +1,5 @@
-# HOW TO SURVIVE OPENBOX GUIDE (work in progress)
-# ENGLISH:
+# GUIDA SU COME SOPRAVVIVERRE SU OPENBOX (work in progress)
 
-# ITALIANO:
 Se sei qui probabilmente è perchè ti sei ritrovato a usare linux su un computer datato, ti ho sgamato vero? oppure potresti essere un amante delle cose semplici... beh io sono entrambi :P
 
 Quindi sei finito a cercare in giro dei modi per velocizzare linux, ne avrai letti un sacco, dalla disattivazione delle animazioni, a gestire le dimensioni della memoria swap, ecc... Tuttavia si finisce sempre lì, a dover cambiare ambiente grafico, passando da gnome (un macigno ciuccia risorse, tuttavia intuitivo dando all'occhio la sua giusta parte) a xfce (forse la miglior alternativa tra personalizzabilità e leggerezza), lxqt (che a pare mio... lasciamo perdere) e così via.
