@@ -18,7 +18,7 @@ Questo passaggio non è fondamentale, quindi sentiti libero di fare come preferi
 cè a chi piace e a chi no uno sfondo totalmente nero, ma a noi no. Quindi che si fa?
 Ci appoggiamo al comando feh:
 ```
-:$ feh --bg-scale /percorso/file/immagine.jpg
+feh --bg-scale /percorso/file/immagine.jpg
 ```
 che fa sta roba? in pratica crea un file  /home/user/.fehbg che eseguito imposta uno sfondo, o comunque salva lo sfondo.
 Ma a noi non piace impostare lo sfondo manualmente ogni volta che facciamo il login no? quindi che si fa?
