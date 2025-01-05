@@ -16,7 +16,7 @@ Che ti piaccia o no (ma se sei qui figurati, forse lo usi meglio e più di me) b
 *Questo passaggio non è fondamentale, quindi sentiti libero di fare come preferisci, io ho creato un Makefile (devi avere il comando make per utilizzarlo) nella directory `/home/user/` in cui ho inserito i comandi che uso più spesso, una alternativa è editare il file `/home/user/.bashrc` (prima fanne una copia) per personalizzare comandi e poterli utilizzare ovunque ti trovi e non solo in `/home/user/`. 
 Se non sai cosa siano il comando make e il file .bashrc vai un attimo a cercare sul web.*
 
-*PS: queste sono suluzioni che io ho trovato comode, può essere che non lo siano per altri, ma il bello sta proprio nel personalizzare gli ambienti a proprio piacimento*
+*PS: queste sono suluzioni che io ho trovato comode, può essere che non lo siano per altri, ma il bello sta proprio nel personalizzare gli ambienti a proprio piacimento*.
 
 # SFONDO
 cè a chi piace e a chi no uno sfondo totalmente nero, ma a noi no. Quindi che si fa?
