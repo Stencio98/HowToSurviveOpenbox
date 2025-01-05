@@ -23,7 +23,8 @@ feh --bg-scale /percorso/file/immagine.jpg
 ```
 che fa sta roba? in pratica crea un file  /home/user/.fehbg che eseguito imposta uno sfondo, o comunque salva lo sfondo.
 Ma a noi non piace impostare lo sfondo manualmente ogni volta che facciamo il login no? quindi che si fa?
-Semplice, basta trovare il modo di eseguire il comando appena avviata la sessione, che è creare un file eseguibile /etc/profile.d/my_background_openbox.sh.
+Semplice, basta trovare il modo di eseguire il comando appena avviata la sessione, che è creare un file eseguibile 
+/etc/profile.d/my_background_openbox.sh.
 Il file my_background_openbox sarà del tipo:
 ```
 #!/bin/sh
