@@ -12,7 +12,7 @@ Di seguito ti mostrerò un elenco di comandi utili per sopravvivere la dentro, p
 (in alcuni casi ho letto possa essere la combinazione Alt+F2)
 
 Che ti piaccia o no (ma se sei qui figurati, forse lo usi meglio e più di me) bisogna usare il terminale, almeno nelle prime configurazioni.
-Questo passaggio non è fondamentale, quindi sentiti libero di fare come preferisci, io ho creato un Makefile (devi avere il comando make per utilizzarlo) nella directory /home/user/ in cui ho inserito i comandi che uso più spesso, una alternativa è editare il file `/home/user/.bashrc` per personalizzare comandi e poterli utilizzare ovunque ti trovi e non solo in /home/user/ 
+Questo passaggio non è fondamentale, quindi sentiti libero di fare come preferisci, io ho creato un Makefile (devi avere il comando make per utilizzarlo) nella directory `/home/user/` in cui ho inserito i comandi che uso più spesso, una alternativa è editare il file `/home/user/.bashrc` per personalizzare comandi e poterli utilizzare ovunque ti trovi e non solo in `/home/user/` 
 Se non sai cosa siano il comando make e il file .bashrc vai un attimo a cercare sul web.
 
 # SFONDO
@@ -21,14 +21,12 @@ Ci appoggiamo al comando feh:
 ```
 feh --bg-scale /percorso/file/immagine.jpg
 ```
-che fa sta roba? in pratica crea un file  /home/user/.fehbg che eseguito imposta uno sfondo, o comunque salva lo sfondo.
+che fa sta roba? in pratica crea un file `/home/user/.fehbg` che eseguito imposta uno sfondo, o comunque salva lo sfondo.
 Ma a noi non piace impostare lo sfondo manualmente ogni volta che facciamo il login no? quindi che si fa?
-Semplice, basta trovare il modo di eseguire il comando appena avviata la sessione, che è creare un file eseguibile 
-/etc/profile.d/my_background_openbox.sh.
-Il file my_background_openbox sarà del tipo:
+Semplice, basta trovare il modo di eseguire il comando appena avviata la sessione, che è creare un file eseguibile `/etc/profile.d/my_background_openbox.sh.` Il file my_background_openbox sarà del tipo:
 ```
 #!/bin/sh
 feh --bg-scale /percorso/file/immagine.jpg
 ```
-Perchè proprio nella cartella /etc/profile.d ? perchè è una directory che contiene script di configurazione shell (generalmente in formato .sh) questi script vengono eseguiti automaticamente all'avvio di una shell interattiva di login, e sono utilizzati per settare variabili d'ambiente, funzioni e altre configurazioni specifiche di ambiente per gli utenti.
-Ci sono alternative? si, una potrebbe essere inserire uno script nella cartella ~/.congig/autostart se esiste, perchè potrebbe stare anche da altre parti.. ma personalmente non ho mai provato, in quella cartella autostart sono contenuti file di configurazione che definiscono quali applicazioni devono essere eseguite automaticamente all'avvio dell'ambiente desktop.
+Perchè proprio nella cartella `/etc/profile.d`? perchè è una directory che contiene script di configurazione shell (generalmente in formato .sh) questi script vengono eseguiti automaticamente all'avvio di una shell interattiva di login, e sono utilizzati per settare variabili d'ambiente, funzioni e altre configurazioni specifiche di ambiente per gli utenti.
+Ci sono alternative? si, una potrebbe essere inserire uno script nella cartella `~/.congig/autostart` se esiste, perchè potrebbe stare anche da altre parti.. ma personalmente non ho mai provato, in quella cartella autostart sono contenuti file di configurazione che definiscono quali applicazioni devono essere eseguite automaticamente all'avvio dell'ambiente desktop.
