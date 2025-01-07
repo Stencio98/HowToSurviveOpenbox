@@ -16,10 +16,13 @@ Che ti piaccia o no (ma se sei qui figurati, forse lo usi meglio e più di me) b
 *Questo passaggio non è fondamentale, quindi sentiti libero di fare come preferisci, io ho creato un Makefile (devi avere il comando make per utilizzarlo) nella directory `/home/user/` in cui ho inserito i comandi che uso più spesso, una alternativa è editare il file `/home/user/.bashrc` (prima fanne una copia) per personalizzare comandi e poterli utilizzare ovunque ti trovi e non solo in `/home/user/`. 
 Se non sai cosa siano il comando make e il file .bashrc vai un attimo a cercare sul web.*
 
-*PS: queste sono suluzioni che io ho trovato comode, può essere che non lo siano per altri, ma il bello sta proprio nel personalizzare gli ambienti a proprio piacimento*.
+*PS: queste sono suluzioni che io ho trovato comode, può essere che non lo siano per altri, ma il bello sta proprio nel personalizzare gli ambienti a proprio piacimento.
+Per esempio, ho preferito in certi casi trovare e sperimentare tool da terminale perchè mi piace, e poi credo che per usare le GUI tanto valga usare un altro ambiente grafico*.
 
 # SHORTCAT 
-ctrl+alt + freccia sinistra/destra sposta nel desktop precedente/successivo 
+* tasto destro del mouse (oppure alt+f2): apre il menù openbox
+* ctrl+alt + freccia sinistra/destra: sposta nel desktop precedente/successivo 
+* tasto centrale mouse: permette di vedere i workspaces con applicazioni aperte
 
 # SFONDO
 cè a chi piace e a chi no uno sfondo totalmente nero, ma a noi no. Quindi che si fa?
@@ -38,9 +41,18 @@ Perchè proprio nella cartella `/etc/profile.d`? perchè è una directory che co
 Ci sono alternative? si, una potrebbe essere inserire uno script nella cartella `~/.congig/autostart` se esiste, perchè potrebbe stare anche da altre parti.. ma personalmente non ho mai provato, in quella cartella autostart sono contenuti file di configurazione che definiscono quali applicazioni devono essere eseguite automaticamente all'avvio dell'ambiente desktop.
 
 # PANNELLO DI CONTROLLO / TASKBAR
-il primo problema a cui si va in contro e che ti farebbe venir voglia di cacciare un exit o peggio spegnere il pc dal tasto fisico, è l'assenza di un pannello di controllo.. in particolare per configurare wifi, bluethoot ecc... 
+il primo problema a cui si va in contro e che ti farebbe venir voglia di cacciare un exit o peggio spegnere il pc dal tasto fisico, è l'assenza di un pannello di controllo.. in particolare per vedere l'ora, configurare wifi, bluethoot ecc... 
 
 La mia scelta è caduta su `tint2` (comando avviabile da terminale oppure con il trucchetto dello sfondo che abbiamo visto prima).
 Spoiler a volte non funziona spariscono delle icone, ma una volta configurato wifi o bluetooth non sarà necessario rifarlo a ogni avvio, ricordo che Openbox è solo un gestore di finestre). Un'opzione è anche farsi largo nel menù di openbox trovando l'applicativo per collegarsi, da terminale dovrebbe essere `nm-connection-editor`, oppure esiste anche `nmtui` che dovrebbe essere completo, ma personalmente non lo ho mai utilizzato. Lo stesso vale per il bluetooth, puoi farti largo nel menù di openbox, usarlo dal pannello, dal terminale dovresti poterlo attivare e disattivare col comando `bluetooth`.
 
 *Come detto prima il bello sta nel personalizzare gli ambienti a nostro piacimento ;)*
+
+# GESTIONE AUDIO
+Un'altra problematica, è modificare il volume, senza un'interfaccia grafica sembra complicato..
+La soluzione che ho trovato è appoggiarsi a `pulsemixer` avviabile da terminale (non è complicato da utilizzare) e non necessita di librerie particolari.
+Sicuramente ci saranno altri escamotage!!
+
+# LUMINOSITA' 
+Qui il discorso è più complicato, una soluzione scalabile è quella di editare il file 
+
