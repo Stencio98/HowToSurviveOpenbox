@@ -13,7 +13,7 @@ Di seguito ti mostrerò un elenco di comandi utili per sopravvivere la dentro, p
 
 Che ti piaccia o no (ma se sei qui figurati, forse lo usi meglio e più di me) bisogna usare il terminale, almeno nelle prime configurazioni.
 
-*Questo passaggio non è fondamentale, quindi sentiti libero di fare come preferisci, io ho creato un Makefile (devi avere il comando make per utilizzarlo) nella directory `/home/user/` in cui ho inserito i comandi che uso più spesso, una alternativa è editare il file `/home/user/.bashrc` (prima fanne una copia) per personalizzare comandi e poterli utilizzare ovunque ti trovi e non solo in `/home/user/`. 
+*Questo passaggio non è fondamentale, quindi sentiti libero di fare come preferisci, io ho creato un Makefile (devi avere il comando make per utilizzarlo) nella directory `/home/user/` in cui ho inserito i comandi che uso più spesso, una alternativa è editare il file `/home/user/.bashrc` (prima fanne una copia) per personalizzare comandi e poterli utilizzare ovunque ti trovi e non solo quando sei in `/home/user/`. 
 Se non sai cosa siano il comando make e il file .bashrc vai un attimo a cercare sul web.*
 
 *PS: queste sono suluzioni che io ho trovato comode, può essere che non lo siano per altri, ma il bello sta proprio nel personalizzare gli ambienti a proprio piacimento.
@@ -54,7 +54,7 @@ La soluzione che ho trovato è appoggiarsi a `pulsemixer` avviabile da terminale
 Sicuramente ci saranno altri escamotage!!
 
 # LUMINOSITA' 
-Qui il discorso è più complicato, una soluzione scalabile è quella di editare il file di sistema `/sys/class/backlight/???/brightness` coi permessi di root, quindi sarà una cosa del genere: `sudo nano /sys/class/backlight/intel_backlight/brightness` oppure `sudo nano /sys/class/backlight/acpi_video0/brightness`.
+Qui il discorso è più complicato, una soluzione scalabile è quella di editare il file di sistema `/sys/class/backlight/???/brightness` coi permessi di root, quindi sarà una cosa del genere: `sudo nano /sys/class/backlight/intel_backlight/brightness` oppure `sudo nano /sys/class/backlight/acpi_video0/brightness` (nano è un editor di testo).
 `intel_backlight` è specifico per i dispositivi che utilizzano schede grafiche Intel, mentre `acpi_video0` è un'interfaccia più generica che può funzionare con vari driver.
 Ho riportato entrambi perchè sono gli unici 
 
