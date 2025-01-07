@@ -23,6 +23,7 @@ Per esempio, ho preferito in certi casi trovare e sperimentare tool da terminale
 * tasto destro del mouse (oppure alt+f2): apre il menù openbox
 * ctrl+alt + freccia sinistra/destra: sposta nel desktop precedente/successivo 
 * tasto centrale mouse: permette di vedere i workspaces con applicazioni aperte
+* la rotella del mouse sul bordo superiore di una finestra la nasconde lasciando solo la barra superiore visibile finchè non viene spostata o riusata la rotella
 
 # SFONDO
 cè a chi piace e a chi no uno sfondo totalmente nero, ma a noi no. Quindi che si fa?
