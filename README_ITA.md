@@ -71,3 +71,5 @@ ho un pc la cui scala è al contrario, 100% luminosità a zero e viceversa (i ta
 
 # RISOLUZIONE SCHERMO
 Ci appoggiamo a `xrand`, per esempio se volessimo impostare la risoluzione di 1920x1080
+
+# PIU' SCHERMI
