@@ -50,6 +50,8 @@ Spoiler a volte non funziona spariscono delle icone, ma una volta configurato wi
 
 *Come detto prima il bello sta nel personalizzare gli ambienti a nostro piacimento ;)*
 
+Per vedere la data c'è `date`, nel caso abbiate un portatile e vogliate sapere lo stato della batteria si usa `acpi`, il comando `watch acpi` per esempio permette di vedere in "tempo reale" lo stato della batteria. 
+
 # GESTIONE AUDIO
 Un'altra problematica, è modificare il volume, senza un'interfaccia grafica sembra complicato..
 La soluzione che ho trovato è appoggiarsi a `pulsemixer` avviabile da terminale (non è complicato da utilizzare) e non necessita di librerie particolari.
