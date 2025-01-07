@@ -79,4 +79,4 @@ Ovviamente, il parametro eDP-1 e 1920x180 dipendono dalla vostra macchina/monito
 # PIU' SCHERMI
 Possiamo appoggiarci al tool grafico `arandr`, è consigliato reimpostare lo sfondo con feh dopo aver cambiato la disposizione degli schermi.
 Arandr permette di salvare la configurazione come un file sh eseguibile (anche qui è consigliato inserirlo nella cartella etc/profile.d.
-*magari dato che da problemi con lo sfondo, se anche lo script di feh dovesse essere nella stessa cartella, sarebbe meglio inserirgli uno sleep di 1 secondo in modo da essere sicuri che venga impostato lo sfondo solo dopo che sono stati impostati i monitor nelle posizioni desiderate*)
+*magari dato che può dare problemi con lo sfondo, se anche lo script di feh dovesse essere nella stessa cartella, sarebbe meglio inserirgli uno sleep di 1 secondo in modo da essere sicuri che venga impostato lo sfondo solo dopo che sono stati impostati i monitor nelle posizioni desiderate*)
