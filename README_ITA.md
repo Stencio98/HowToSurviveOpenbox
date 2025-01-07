@@ -54,5 +54,8 @@ La soluzione che ho trovato è appoggiarsi a `pulsemixer` avviabile da terminale
 Sicuramente ci saranno altri escamotage!!
 
 # LUMINOSITA' 
-Qui il discorso è più complicato, una soluzione scalabile è quella di editare il file 
+Qui il discorso è più complicato, una soluzione scalabile è quella di editare il file di sistema `/sys/class/backlight/???/brightness` coi permessi di root, quindi sarà una cosa del genere: `sudo nano /sys/class/backlight/intel_backlight/brightness` oppure `sudo nano /sys/class/backlight/acpi_video0/brightness`.
+`intel_backlight` è specifico per i dispositivi che utilizzano schede grafiche Intel, mentre `acpi_video0` è un'interfaccia più generica che può funzionare con vari driver.
+Ho riportato entrambi perchè sono gli unici 
+
 
