@@ -32,7 +32,7 @@ Ci appoggiamo al comando feh:
 ```
 feh --bg-scale /percorso/file/immagine.jpg
 ```
-che fa sta roba? in pratica crea un file `/home/user/.fehbg` che eseguito imposta uno sfondo, o comunque salva lo sfondo.
+che fa sta roba? in pratica crea un file `/home/user/.fehbg` che eseguito imposta uno sfondo, viene "salvato" in questo modo.
 Ma a noi non piace impostare lo sfondo manualmente ogni volta che facciamo il login no? quindi che si fa?
 Semplice, basta trovare il modo di eseguire il comando appena avviata la sessione, che è creare un file eseguibile `/etc/profile.d/my_background_openbox.sh.` Il file my_background_openbox sarà del tipo:
 ```
@@ -70,6 +70,14 @@ Ho riportato entrambi per completezza, ma dipenderà dal vostro hardware specifi
 ho un pc la cui scala è al contrario, 100% luminosità a zero e viceversa (i tasti della tastiera però indicano a sx più luminoso e dx meno) per questo ho scritto **non inserire valori di fondo scala***
 
 # RISOLUZIONE SCHERMO
-Ci appoggiamo a `xrand`, per esempio se volessimo impostare la risoluzione di 1920x1080
+Ci appoggiamo a `xrand`, per esempio se volessimo impostare la risoluzione di 1920x1080:
+```
+xrandr --output eDP-1 --mode 1920x1080
+```
+Ovviamente, il parametro eDP-1 e 1920x180 dipendono dalla vostra macchina/monitor in ogni caso dopo aver scritto `xrandr` premendo tab verranno mostrate le uscite disponibili, lo stesso vale per le risoluzioni.
 
 # PIU' SCHERMI
+Possiamo appoggiarci al tool grafico `arandr`, è consigliato reimpostare lo sfondo con feh dopo aver cambiato la disposizione degli schermi.
+Arandr permette di salvare la configurazione come un file sh eseguibile (anche qui è consigliato inserirlo nella cartella etc/profile.d.
+
+*magari dato che da problemi con lo sfondo, se anche lo script di feh dovesse essere nella stessa cartella, sarebbe meglio inserirgli uno sleep di 1 secondo in modo da essere sicuri che venga impostato lo sfondo solo dopo che sono stati impostati i monitor nelle posizioni desiderate*)
