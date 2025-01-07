@@ -69,3 +69,5 @@ Ho riportato entrambi per completezza, ma dipenderà dal vostro hardware specifi
 *Esperienza personale:
 ho un pc la cui scala è al contrario, 100% luminosità a zero e viceversa (i tasti della tastiera però indicano a sx più luminoso e dx meno) per questo ho scritto **non inserire valori di fondo scala***
 
+# RISOLUZIONE SCHERMO
+Ci appoggiamo a `xrand`, per esempio se volessimo impostare la risoluzione di 1920x1080
