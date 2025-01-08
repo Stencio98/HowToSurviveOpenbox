@@ -56,7 +56,7 @@ background:
 disable-touchpad:
 	xinput disable 'ETPS/2 Elantech Touchpad'
 
-panel-openbox-helper:
+panel:
 	tint2
 
 xampp:
