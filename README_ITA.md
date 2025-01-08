@@ -13,7 +13,7 @@ Di seguito ti mostrerò un elenco di comandi utili per sopravvivere la dentro, p
 
 Che ti piaccia o no (ma se sei qui figurati, forse lo usi meglio e più di me) bisogna usare il terminale, almeno nelle prime configurazioni.
 
-*Questo passaggio non è fondamentale, quindi sentiti libero di fare come preferisci, io ho creato un Makefile (devi avere il comando make per utilizzarlo) nella directory `/home/user/` in cui ho inserito i comandi che uso più spesso, una alternativa è editare il file `/home/user/.bashrc` (prima fanne una copia) per personalizzare comandi e poterli utilizzare ovunque ti trovi e non solo quando sei in `/home/user/`. 
+*Questo passaggio non è fondamentale, quindi sentiti libero di fare come preferisci, io ho creato un Makefile (il Makefile presente qui è wuello che uso io) nella directory `/home/user/` in cui ho inserito i comandi che uso più spesso, una alternativa è editare il file `/home/user/.bashrc` (prima fanne una copia) per personalizzare comandi e poterli utilizzare ovunque ti trovi e non solo quando sei in `/home/user/`. 
 Se non sai cosa siano il comando make e il file .bashrc vai un attimo a cercare sul web.*
 
 *PS: queste sono suluzioni che io ho trovato comode, può essere che non lo siano per altri, ma il bello sta proprio nel personalizzare gli ambienti a proprio piacimento.
