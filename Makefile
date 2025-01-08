@@ -1,4 +1,4 @@
-app-finder-openbox-helper:
+app-finder:
 	xfce4-appfinder
 
 update:
@@ -24,7 +24,7 @@ data-grip:
 intellij:
 	./idea-IU-243.22562.145/bin/idea.sh
 
-status-pc-openbox-helper:
+status-pc:
 	watch make xxx 
 xxx:
 	date
@@ -43,13 +43,13 @@ redshift:
 redshiftq:
 	redshift -x
 
-brightness--openbox-helper:
+brightness:
 	@echo "!!!DO NOT USE THE MAX OR MIN RANGE FOR CAUTION!!!"
 	@echo "to know range, go to ../intel_backlight and watch files"
 #	sudo nano /sys/class/backlight/intel_backlight/brightness
 	sudo nano /sys/class/backlight/acpi_video0/brightness
 
-background-openbox-helper:
+background:
 	@echo "in /etc/profile.d stanno script che vengono eseguiti al login"
 	feh --bg-scale ~/Pictures/akatsuki-pictures-6vgzl0pobhu2n6w1.jpg
 
