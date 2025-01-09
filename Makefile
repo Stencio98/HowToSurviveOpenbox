@@ -6,6 +6,9 @@ default:
 app-finder-openbox-helper:
 	xfce4-appfinder
 
+lock-screen:
+        cinnamon-screensaver-lock-dialog
+
 update:
 	sudo apt-get clean
 	sudo apt-get update
