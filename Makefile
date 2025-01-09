@@ -1,3 +1,7 @@
+default:
+	./.fehbg
+	tint2 &
+
 app-finder:
 	xfce4-appfinder
 
