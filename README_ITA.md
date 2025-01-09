@@ -16,8 +16,8 @@ Che ti piaccia o no (ma se sei qui figurati, forse lo usi meglio e più di me) b
 *Questo passaggio non è fondamentale, quindi sentiti libero di fare come preferisci, io ho creato un Makefile (il Makefile presente qui è quello che uso quotidianamente e che tengo aggiornato) nella directory `/home/user/` in cui ho inserito i comandi che uso più spesso, una alternativa è editare il file `/home/user/.bashrc` (prima fanne una copia) per personalizzare comandi e poterli utilizzare ovunque ti trovi e non solo quando sei in `/home/user/`. 
 Se non sai cosa siano il comando make e il file .bashrc vai un attimo a cercare sul web.*
 
-*PS: queste sono suluzioni che io ho trovato comode, può essere che non lo siano per altri, ma il bello sta proprio nel personalizzare gli ambienti a proprio piacimento.
-Per esempio, ho preferito in certi casi trovare e sperimentare tool da terminale perchè mi piace, e poi credo che per usare le GUI tanto valga usare un altro ambiente grafico*.
+*PS: queste sono suluzioni che io ho trovato comode, può essere che non lo siano per altri, ma il bello non sta solo nella personalizzazione degli ambienti a proprio piacimento, ma anche nel cercare "la soluzione" che più ci piace.
+Per esempio, ho preferito in certi casi trovare e sperimentare tool da terminale perchè mi piace, e poi credo che per usare le GUI tanto valga usare un altro ambiente grafico :P*.
 
 # SHORTCAT 
 * tasto destro del mouse (oppure alt+f2): apre il menù openbox
@@ -49,7 +49,7 @@ il primo problema a cui si va in contro e che ti farebbe venir voglia di cacciar
 La mia scelta è caduta su `tint2` (comando avviabile da terminale oppure con il trucchetto dello sfondo che abbiamo visto prima).
 Spoiler a volte spariscono delle icone (ma una volta configurato wifi o bluetooth non sarà necessario rifarlo a ogni avvio, ricordo che Openbox è solo un gestore di finestre). Un'opzione è anche farsi largo nel menù di openbox trovando l'applicativo per collegarsi, da terminale dovrebbe essere `nm-connection-editor`, oppure esiste anche `nmtui` che dovrebbe essere completo anche per la scansione delle reti, ma personalmente non lo ho mai utilizzato. Lo stesso vale per il bluetooth, puoi farti largo nel menù di openbox, usarlo dal pannello, dal terminale dovresti poterlo attivare e disattivare col comando `bluetooth`, ma ve ne sono altri come `bluetoothctl` e simili che permettono anche la gestione dei dispositivi da riga di comando .
 
-*Come detto prima il bello sta nel personalizzare gli ambienti a nostro piacimento ;)*
+*Come detto prima il bello non sta solo nel personalizzare ;)*
 
 Per vedere la data c'è `date`, nel caso abbiate un portatile e vogliate sapere lo stato della batteria si usa `acpi`, il comando `watch acpi` per esempio permette di vedere in "tempo reale" lo stato della batteria. 
 
