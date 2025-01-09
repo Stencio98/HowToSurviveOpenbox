@@ -66,7 +66,7 @@ sudo nano /sys/class/backlight/intel_backlight/brightness
 sudo nano /sys/class/backlight/acpi_video0/brightness  #(nano è un editor di testo).
 ```
 `intel_backlight` è specifico per i dispositivi che utilizzano schede grafiche Intel, mentre `acpi_video0` è un'interfaccia più generica che può funzionare con vari driver.
-Ho riportato entrambi per completezza, ma dipenderà dal vostro hardware specifico, in ogni caso fatevi un giro tra quelle cartelle, appena troverete `brightness` provate a editare il file. **NON inserite 0 oppure valori di fondoscala altrimenti rischiate di avere lo schermo nero**.
+Ho riportato entrambi per completezza, ma dipenderà dal vostro hardware specifico, in ogni caso fatevi un giro tra quelle cartelle, appena troverete `brightness` provate a editare il file. [NON inserite 0 oppure valori di fondoscala altrimenti rischiate di avere lo schermo nero].
 `max_brightness` contiene il valore massimo possibile.
 
 *Esperienza personale:
