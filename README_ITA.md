@@ -82,3 +82,10 @@ Ovviamente, il parametro eDP-1 e 1920x180 dipendono dalla vostra macchina/monito
 Possiamo appoggiarci al tool grafico `arandr`, è consigliato reimpostare lo sfondo con feh dopo aver cambiato la disposizione degli schermi.
 Arandr permette di salvare la configurazione come un file sh eseguibile (anche qui è consigliato inserirlo nella cartella etc/profile.d.
 *magari dato che può dare problemi con lo sfondo, se anche lo script di feh dovesse essere nella stessa cartella, sarebbe meglio inserirgli uno sleep di 1 secondo all'inizio in modo da essere sicuri che venga impostato lo sfondo solo dopo che sono stati impostati i monitor nelle posizioni desiderate*)
+
+# LOCKSCREEN
+Va impostato in qualche modo (siete anche liberi di non usarlo, ma probabilmente chiudendo solo il laptop non farà un tubo oltre a oscurare lo schermo senza bloccarlo).
+di default è installato xscreensaver (che non uso mai). Io su linux mint ho a disposizione `cinnamon-screensaver-lock-dialog` che invoco da terminale, blocca lo oschermo scegliendo un messaggio di testo da mostrare, con tutta probabilità fa parte del pacchetto `cinnamon-session`. Potrebbero esserci cose diverse in base alle vostre distro e ambienti grafici installati.
+
+*Non ho ancora capito se ci sono impostazioni che vanno "in conflitto" con openbox, poichè oscura lo schermo dopo dei minuti di inattività, non ho capito se è gestibile da xscreensaver oppure è reduce dalle impostazioni associate all'ambiente grafico di default, non me ne sono preoccupato in realtà*
+
