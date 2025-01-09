@@ -1,4 +1,7 @@
 default:
+	./.fehbg
+
+default_2:
 #applica configurazione di arandr poi imposta lo sfondo
 	xrandr --output LVDS --primary --mode 1366x768 --pos 1600x132 --rotate normal --output HDMI-0 --off --output VGA-0 --mode 1600x900 --pos 0x0 --rotate normal
 	./.fehbg
