@@ -26,13 +26,7 @@ Per esempio, ho preferito in certi casi trovare e sperimentare tool da terminale
 * la rotella del mouse sul bordo superiore di una finestra la nasconde lasciando solo la barra superiore visibile finchè non viene spostata o riusata la rotella
 * invece premere la rotella superiore sul bordo superiore della finestra, la mette in ultimo piano 
 
-# SFONDO
-
-<!--
-rgerg
-ergerg
-aerg
--->
+# SFONDOS
 
 cè a chi piace e a chi no uno sfondo totalmente nero, ma a noi no. Quindi che si fa?
 Ci appoggiamo al comando feh:
