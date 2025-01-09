@@ -2,7 +2,7 @@ default:
 	./.fehbg
 	tint2 &
 
-app-finder:
+app-finder-openbox-helper:
 	xfce4-appfinder
 
 update:
@@ -29,7 +29,7 @@ intellij:
 	./idea-IU-243.22562.145/bin/idea.sh
 
 status-pc:
-	watch make xxx 
+	watch make xxx
 xxx:
 	date
 	acpi
@@ -57,6 +57,9 @@ background:
 	@echo "in /etc/profile.d stanno script che vengono eseguiti al login"
 	feh --bg-scale ~/Pictures/akatsuki-pictures-6vgzl0pobhu2n6w1.jpg
 
+monitor:
+	arandr
+
 disable-touchpad:
 	xinput disable 'ETPS/2 Elantech Touchpad'
 
@@ -68,3 +71,9 @@ xampp:
 	@echo "https://wiki.ubuntu-it.org/Server/Xampp"
 	@echo "avviare xampp : sudo /opt/lampp/xampp start"
 	@echo "avviare gui xampp : sudo /opt/lampp/manager-linux-x64.run"
+
+wifi:
+	nmtui
+
+cpu:
+	sudo cpupower-gui
