@@ -19,7 +19,7 @@ Se non sai cosa siano il comando make e il file .bashrc vai un attimo a cercare 
 *PS: queste sono suluzioni che io ho trovato comode, può essere che non lo siano per altri, ma il bello non sta solo nella personalizzazione degli ambienti a proprio piacimento, ma anche nel cercare "la soluzione" che più ci piace.
 Per esempio, ho preferito in certi casi trovare e sperimentare tool da terminale perchè mi piace, e poi credo che per usare le GUI tanto valga usare un altro ambiente grafico :P*.
 
-# SHORTCAT 
+# SHORTCUT 
 * tasto destro del mouse (oppure alt+f2): apre il menù openbox
 * ctrl+alt + freccia sinistra/destra: sposta nel desktop precedente/successivo 
 * tasto centrale mouse: permette di vedere i workspaces con applicazioni aperte
