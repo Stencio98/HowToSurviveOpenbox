@@ -91,7 +91,7 @@ di default è installato xscreensaver (che non ho mai usato). Io su linux mint h
 *(Risolto qui sotto) Non ho ancora capito se ci sono impostazioni che vanno "in conflitto" con openbox, poichè oscura lo schermo dopo dei minuti di inattività, non ho capito se è gestibile da xscreensaver oppure è reduce dalle impostazioni associate all'ambiente grafico di default, non me ne sono preoccupato in realtà* 
 
 **risolto** bisogna smanettare con xset (command to manage the display server’s settings.) 
-* `xset q` permette di visualizzare tutte le impostazioni, le mie erano:
+`xset q` permette di visualizzare tutte le impostazioni, le mie erano:
 ```
 ...
 Screen Saver:
