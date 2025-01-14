@@ -1,17 +1,17 @@
 default:
 	./.fehbg
-
+	make xset-no-screensaver
 default_2:
 #applica configurazione di arandr poi imposta lo sfondo
 	xrandr --output LVDS --primary --mode 1366x768 --pos 1600x132 --rotate normal --output HDMI-0 --off --output VGA-0 --mode 1600x900 --pos 0x0 --rotate normal
 	./.fehbg
+	xset-no-screensaver
 
 app-finder-openbox-helper:
 	xfce4-appfinder
 
 lock-screen:
-        cinnamon-screensaver-lock-dialog
-
+	cinnamon-screensaver-lock-dialog
 update:
 	sudo apt-get clean
 	sudo apt-get update
@@ -59,6 +59,11 @@ brightness:
 	@echo "to know range, go to ../intel_backlight and watch files"
 #	sudo nano /sys/class/backlight/intel_backlight/brightness
 	sudo nano /sys/class/backlight/acpi_video0/brightness
+
+xset-no-screensaver:
+	xset s off
+	xset -dpms
+	xset q
 
 background:
 	@echo "in /etc/profile.d stanno script che vengono eseguiti al login"
