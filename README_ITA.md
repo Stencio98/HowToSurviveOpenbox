@@ -111,4 +111,4 @@ E questo dovrebbe spiegare lo schermo nero a causa dell'inattività. Di seguito 
 
 (mai testato ne utilizzato) `xset -dpms` disabilita il DPMS (Display Power Management Signaling). DPMS è una funzionalità che consente di ridurre il consumo energetico del monitor spegnendolo dopo un certo periodo di inattività. 
 
-(non funzionante, work in progress)`xset m 2/1 0` imposta la velocità del mouse a 2
+(non funzionante, work in progress)`xset m 2/1 0` imposta la velocità del mouse a 2, vedere se con `libinput` si riesce a fare qualcosa
