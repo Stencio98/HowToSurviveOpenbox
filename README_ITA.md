@@ -85,6 +85,9 @@ Arandr permette di salvare la configurazione come un file sh eseguibile (anche q
 *magari dato che può dare problemi con lo sfondo, se anche lo script di feh dovesse essere nella stessa cartella, sarebbe meglio inserirgli uno sleep di 1 secondo all'inizio in modo da essere sicuri che venga impostato lo sfondo solo dopo che sono stati impostati i monitor nelle posizioni desiderate*)
 
 # LOCKSCREEN / XSET PER PUNTATORE DEL MOUSE
+
+*non completo, in fase di sperimentazione*
+
 Va impostato in qualche modo (siete anche liberi di non usarlo, ma probabilmente chiudendo solo il laptop non farà un tubo oltre a oscurare lo schermo senza bloccarlo).
 di default è installato xscreensaver (che non ho mai usato). Io su linux mint ho a disposizione `cinnamon-screensaver-lock-dialog` che invoco da terminale, blocca lo oschermo scegliendo un messaggio di testo da mostrare, con tutta probabilità fa parte del pacchetto `cinnamon-session`. Potrebbero esserci cose diverse in base alle vostre distro e ambienti grafici installati.
 
