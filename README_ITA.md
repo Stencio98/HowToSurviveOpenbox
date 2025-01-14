@@ -86,7 +86,7 @@ Arandr permette di salvare la configurazione come un file sh eseguibile (anche q
 
 # LOCKSCREEN / XSET PER PUNTATORE DEL MOUSE
 
-*!!! non completo, in fase di sperimentazione !!!*
+*!!! non completo, in fase di sperimentazione !!! alcuni comandi non funzionano e devo capirne il perchè*
 
 Va impostato in qualche modo (siete anche liberi di non usarlo, ma probabilmente chiudendo solo il laptop non farà un tubo oltre a oscurare lo schermo senza bloccarlo).
 di default è installato xscreensaver (che non ho mai usato). Io su linux mint ho a disposizione `cinnamon-screensaver-lock-dialog` che invoco da terminale, blocca lo oschermo scegliendo un messaggio di testo da mostrare, con tutta probabilità fa parte del pacchetto `cinnamon-session`. Potrebbero esserci cose diverse in base alle vostre distro e ambienti grafici installati.
@@ -105,10 +105,14 @@ Screen Saver:
 ```
 E questo dovrebbe spiegare lo schermo nero a causa dell'inattività. Di seguito fornisco alcuni esempi di utilizzo di xset.
 
+*testato*
 `xset s off` disabilita lo screensaver (è possibile in alcuni casi che lo schermo diventi nero anche durante la visione di un video o una presentazione, ho avuto questa esperienza con Xubuntu, questo problema non si è ripresentato con Linux Mint).
 
+*testato*
 `xset s 3600 3600` il primo 3600 setta il timeout del screensaver (in secondi) il secondo specifica l'intervallo in cui viene richiamato lo screensaver, mantenendolo attivo in cicli temporizzati.
 
+*mai testato, ne utilizzato*
 `xset -dpms` disabilita il DPMS (Display Power Management Signaling). DPMS è una funzionalità che consente di ridurre il consumo energetico del monitor spegnendolo dopo un certo periodo di inattività. 
 
+*non funzionante, work in progress*
 `xset m 2/1 0` imposta la velocità del mouse a 2
