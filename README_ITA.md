@@ -88,8 +88,16 @@ Arandr permette di salvare la configurazione come un file sh eseguibile (anche q
 Va impostato in qualche modo (siete anche liberi di non usarlo, ma probabilmente chiudendo solo il laptop non farà un tubo oltre a oscurare lo schermo senza bloccarlo).
 di default è installato xscreensaver (che non ho mai usato). Io su linux mint ho a disposizione `cinnamon-screensaver-lock-dialog` che invoco da terminale, blocca lo oschermo scegliendo un messaggio di testo da mostrare, con tutta probabilità fa parte del pacchetto `cinnamon-session`. Potrebbero esserci cose diverse in base alle vostre distro e ambienti grafici installati.
 
-[risolto 3 righe più in basso]
-*Non ho ancora capito se ci sono impostazioni che vanno "in conflitto" con openbox, poichè oscura lo schermo dopo dei minuti di inattività, non ho capito se è gestibile da xscreensaver oppure è reduce dalle impostazioni associate all'ambiente grafico di default, non me ne sono preoccupato in realtà* 
+*(Risolto qui sotto) Non ho ancora capito se ci sono impostazioni che vanno "in conflitto" con openbox, poichè oscura lo schermo dopo dei minuti di inattività, non ho capito se è gestibile da xscreensaver oppure è reduce dalle impostazioni associate all'ambiente grafico di default, non me ne sono preoccupato in realtà* 
 
 **risolto** bisogna smanettare con xset (command to manage the display server’s settings.) 
-`xset q` permette di visualizzare tutte le impostazioni
+* `xset q` permette di visualizzare tutte le impostazioni, le mie erano:
+```
+...
+Screen Saver:
+  prefer blanking:  yes    allow exposures:  yes
+  timeout:  600    cycle:  600
+...
+```
+E questo dovrebbe spiegare lo schermo nero a causa dell'inattività.
+* `xset s off` disabilita lo screensaver (è possibile in alcuni casi che lo schermo diventi nero anche durante la visione di un video o una presentazione, ho avuto questa esperienza con Xubuntu, questo problema non si è ripresentato con mint) 
