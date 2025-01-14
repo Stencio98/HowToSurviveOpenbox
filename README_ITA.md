@@ -84,14 +84,15 @@ Possiamo appoggiarci al tool grafico `arandr`, è consigliato reimpostare lo sfo
 Arandr permette di salvare la configurazione come un file sh eseguibile (anche qui è consigliato inserirlo nella cartella etc/profile.d.
 *magari dato che può dare problemi con lo sfondo, se anche lo script di feh dovesse essere nella stessa cartella, sarebbe meglio inserirgli uno sleep di 1 secondo all'inizio in modo da essere sicuri che venga impostato lo sfondo solo dopo che sono stati impostati i monitor nelle posizioni desiderate*)
 
-# LOCKSCREEN 
+# LOCKSCREEN / XSET PER PUNTATORE DEL MOUSE
 Va impostato in qualche modo (siete anche liberi di non usarlo, ma probabilmente chiudendo solo il laptop non farà un tubo oltre a oscurare lo schermo senza bloccarlo).
 di default è installato xscreensaver (che non ho mai usato). Io su linux mint ho a disposizione `cinnamon-screensaver-lock-dialog` che invoco da terminale, blocca lo oschermo scegliendo un messaggio di testo da mostrare, con tutta probabilità fa parte del pacchetto `cinnamon-session`. Potrebbero esserci cose diverse in base alle vostre distro e ambienti grafici installati.
 
 *(Risolto qui sotto) Non ho ancora capito se ci sono impostazioni che vanno "in conflitto" con openbox, poichè oscura lo schermo dopo dei minuti di inattività, non ho capito se è gestibile da xscreensaver oppure è reduce dalle impostazioni associate all'ambiente grafico di default, non me ne sono preoccupato in realtà* 
 
 **risolto** bisogna smanettare con xset (command to manage the display server’s settings.) 
-`xset q` permette di visualizzare tutte le impostazioni, le mie erano:
+
+`xset q` q sta per query, permette di visualizzare tutte le impostazioni, le mie erano:
 ```
 ...
 Screen Saver:
@@ -99,5 +100,10 @@ Screen Saver:
   timeout:  600    cycle:  600
 ...
 ```
-E questo dovrebbe spiegare lo schermo nero a causa dell'inattività.
-* `xset s off` disabilita lo screensaver (è possibile in alcuni casi che lo schermo diventi nero anche durante la visione di un video o una presentazione, ho avuto questa esperienza con Xubuntu, questo problema non si è ripresentato con mint) 
+E questo dovrebbe spiegare lo schermo nero a causa dell'inattività. Di seguito fornisco alcuni esempi di utilizzo di xset.
+
+`xset s off` disabilita lo screensaver (è possibile in alcuni casi che lo schermo diventi nero anche durante la visione di un video o una presentazione, ho avuto questa esperienza con Xubuntu, questo problema non si è ripresentato con Linux Mint).
+
+`xset s 3600 3600` il primo 3600 setta il timeout del screensaver (in secondi) il secondo specifica l'intervallo in cui viene richiamato lo screensaver, mantenendolo attivo in cicli temporizzati.
+
+`xset -dpms` disabilita il DPMS (Display Power Management Signaling). DPMS è una funzionalità che consente di ridurre il consumo energetico del monitor spegnendolo dopo un certo periodo di inattività. 
