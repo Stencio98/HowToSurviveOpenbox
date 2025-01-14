@@ -107,3 +107,5 @@ E questo dovrebbe spiegare lo schermo nero a causa dell'inattività. Di seguito 
 `xset s 3600 3600` il primo 3600 setta il timeout del screensaver (in secondi) il secondo specifica l'intervallo in cui viene richiamato lo screensaver, mantenendolo attivo in cicli temporizzati.
 
 `xset -dpms` disabilita il DPMS (Display Power Management Signaling). DPMS è una funzionalità che consente di ridurre il consumo energetico del monitor spegnendolo dopo un certo periodo di inattività. 
+
+`xset m 2/1 0` imposta la velocità del mouse a 2
