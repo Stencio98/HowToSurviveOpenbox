@@ -105,7 +105,7 @@ Screen Saver:
 ```
 E questo dovrebbe spiegare lo schermo nero a causa dell'inattività. Di seguito fornisco alcuni esempi di utilizzo di xset.
 
-(testato e funzionante) `xset s off` disabilita lo screensaver (è possibile in alcuni casi che lo schermo diventi nero anche durante la visione di un video o una presentazione, ho avuto questa esperienza con Xubuntu, questo problema non si è ripresentato con Linux Mint).
+(testato e funzionante) `xset s off` disabilita lo screensaver (è possibile in alcuni casi che lo schermo diventi nero anche durante la visione di un video o una presentazione, ho avuto questa esperienza con Xubuntu, questo problema non si è ripresentato con Linux Mint. Devo sottolineare che non conoscevo xset e sapevo usare poco e male gli strumenti xfce tra cui la presentation mode).
 
 (testato e funzionante) `xset s 3600 3600` il primo 3600 setta il timeout del screensaver (in secondi) il secondo specifica l'intervallo in cui viene richiamato lo screensaver, mantenendolo attivo in cicli temporizzati.
 
