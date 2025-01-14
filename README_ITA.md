@@ -109,10 +109,13 @@ E questo dovrebbe spiegare lo schermo nero a causa dell'inattività. Di seguito 
 `xset s off` disabilita lo screensaver (è possibile in alcuni casi che lo schermo diventi nero anche durante la visione di un video o una presentazione, ho avuto questa esperienza con Xubuntu, questo problema non si è ripresentato con Linux Mint).
 
 *testato*
+
 `xset s 3600 3600` il primo 3600 setta il timeout del screensaver (in secondi) il secondo specifica l'intervallo in cui viene richiamato lo screensaver, mantenendolo attivo in cicli temporizzati.
 
 *mai testato, ne utilizzato*
+
 `xset -dpms` disabilita il DPMS (Display Power Management Signaling). DPMS è una funzionalità che consente di ridurre il consumo energetico del monitor spegnendolo dopo un certo periodo di inattività. 
 
 *non funzionante, work in progress*
+
 `xset m 2/1 0` imposta la velocità del mouse a 2
