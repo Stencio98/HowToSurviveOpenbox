@@ -1,10 +1,11 @@
 ....
   fi
 fi
+#end file .bashrc, we can add commands there.
+#make a copy(cp /home/user.bashrc /home/user/.bashrc.backup) before start
+#if you delete .bashrc file, you can recover it with follow command:
+#cp /etc/skel/.bashrc /home/user/.bashrc
 
-# questa è la versione .bashrc del Makefile aggiunta al fondo del file .bashrc
-# le mmm a inizio comando servono per differenziarli da altri comandi 
-#una volta digitato mmm e premuto tab compariranno i comma disponibili
 #############################################aliases openbox
 # Default commands
 alias mmmdefault='./.fehbg; xset s off; xset -dpms; xset q'
