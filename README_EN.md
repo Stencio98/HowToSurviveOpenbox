@@ -5,4 +5,4 @@
 *you could ask chatGPT what commands do*
 
 # HOW TO SURVIVE OPENBOX GUIDE
-*to be continued*
+*to be continued...*
