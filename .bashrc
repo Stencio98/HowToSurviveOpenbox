@@ -6,6 +6,8 @@ fi
 #if you delete .bashrc file, you can recover it with follow command:
 #cp /etc/skel/.bashrc /home/user/.bashrc
 
+#i used "mmm" to differentiate commands
+
 #############################################aliases openbox
 # Default commands
 alias mmmdefault='./.fehbg; xset s off; xset -dpms; xset q'
