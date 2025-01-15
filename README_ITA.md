@@ -77,7 +77,7 @@ Ci appoggiamo a `xrand`, per esempio se volessimo impostare la risoluzione di 19
 ```
 xrandr --output eDP-1 --mode 1920x1080
 ```
-Ovviamente, il parametro eDP-1 e 1920x180 dipendono dalla vostra macchina/monitor in ogni caso dopo aver scritto `xrandr` premendo tab verranno mostrate le uscite disponibili, lo stesso vale per le risoluzioni.
+Ovviamente, il parametro eDP-1 e 1920x180 dipendono dalla vostra macchina/monitor in ogni caso dopo aver scritto `xrandr --output` premendo tab verranno mostrate le uscite disponibili, lo stesso vale per le risoluzioni.
 
 # PIU' SCHERMI
 Possiamo appoggiarci al tool grafico `arandr`, è consigliato reimpostare lo sfondo con feh dopo aver cambiato la disposizione degli schermi.
