@@ -35,9 +35,9 @@ data-grip:
 intellij:
 	./idea-IU-243.22562.145/bin/idea.sh
 
+#use watch
+#watch make status-pc
 status-pc:
-	watch make xxx
-xxx:
 	date
 	acpi
 	free -h
