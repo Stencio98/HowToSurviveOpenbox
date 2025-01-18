@@ -1,6 +1,7 @@
 default:
 	./.fehbg
 	$(MAKE) xset-no-screensaver
+
 default_2:
 #set arandr configuration then set wallpaper and disable screensaver
 	xrandr --output LVDS --primary --mode 1366x768 --pos 1600x132 --rotate normal --output HDMI-0 --off --output VGA-0 --mode 1600x900 --pos 0x0 --rotate normal
@@ -35,8 +36,6 @@ data-grip:
 intellij:
 	./idea-IU-243.22562.145/bin/idea.sh
 
-#use watch
-#watch make status-pc
 status-pc:
 	watch $(MAKE) pc
 
