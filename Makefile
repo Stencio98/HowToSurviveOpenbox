@@ -21,6 +21,9 @@ update:
 	flatpak update
 	sudo snap refresh
 
+disable_keyboard:
+	xinput float 'AT Translated Set 2 keyboard'
+
 1280x720:
 	xrandr --output eDP-1 --mode 1280x720
 
