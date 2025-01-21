@@ -51,6 +51,25 @@ Spoiler a volte spariscono delle icone (ma una volta configurato wifi o bluetoot
 
 Per vedere la data c'è `date`, nel caso abbiate un portatile e vogliate sapere lo stato della batteria si usa `acpi`, il comando `watch acpi` per esempio permette di vedere in "tempo reale" lo stato della batteria. 
 
+**BETTER SOLUTION**
+Ho avuto occasione di sperimentare `xfce4-panel` e sembra davvero essere comodo e completo!! Tuttavia l'unico "problema" che ho riscontrato è l'assenza di una icona della batteria, ci sarà una soluzione, ma devo ancora trovarla.. Per il momento siccome uso molto spesso il terminale, ho inserito al fondo del file .bashrc `acpi`:
+```
+  elif [ -f /etc/bash_completion ]; then
+    . /etc/bash_completion
+  fi
+fi
+
+#my commands at terminal open
+acpi
+```
+In questo modo ogni shell che apriremo ci indicherà lo stato della batteri ain quel momento:
+```
+Battery 0: Charging, 85%, 00:00:17 until charged
+stencio@stencio-E1-510:~$ 
+
+```
+ovviamente è un "timestamp", non si aggiorna nel tempo, ma ci permette di avere ogni tanto una idea di come sia messa la batteria.
+
 # GESTIONE AUDIO
 Un'altra problematica, è modificare il volume, senza un'interfaccia grafica sembra complicato..
 La soluzione che ho trovato è appoggiarsi a `pulsemixer` avviabile da terminale (non è complicato da utilizzare) e non necessita di librerie particolari.
