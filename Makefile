@@ -78,8 +78,8 @@ disable-touchpad:
 	xinput disable 'ETPS/2 Elantech Touchpad'
 
 panel:
-	tint2
-
+#tint2
+	xfce4-panel
 xampp:
 	@echo "link xampp ubuntu"
 	@echo "https://wiki.ubuntu-it.org/Server/Xampp"
