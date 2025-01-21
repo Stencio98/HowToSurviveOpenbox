@@ -52,7 +52,9 @@ alias mmmmonitor='arandr'
 alias mmmdisable_touchpad='xinput disable "ETPS/2 Elantech Touchpad"'
 
 # Tint2 panel
-alias mmmpanel='tint2'
+#alias mmmpanel='tint2'
+alias mmmpanel='xfce4-panel'
+
 
 # XAMPP management
 alias mmmxampp='echo "link xampp ubuntu"; echo "https://wiki.ubuntu-it.org/Server/Xampp"; echo "avviare xampp : sudo /opt/lampp/xampp start"; echo "avviare gui xampp : sudo /opt/lampp/manager-linux-x64.run"'
