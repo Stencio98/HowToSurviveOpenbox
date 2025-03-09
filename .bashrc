@@ -7,6 +7,7 @@ fi
 #cp /etc/skel/.bashrc /home/user/.bashrc
 
 #my commands at terminal open
+date
 acpi
 echo "!!! GIT PULL !!!"
 
